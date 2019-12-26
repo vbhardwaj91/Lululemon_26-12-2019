@@ -38,6 +38,8 @@ public class HomePage extends TestBase {
 	
 	public LoginPage loginLink(){
 		
+		System.out.println("-------------");
+		
 		Login.click();
 		
 		return new LoginPage();
